@@ -1,5 +1,5 @@
 body{
-    background-image: url('img/Logo\ VC.jpeg'); 
+    background-color: aliceblue;
     background-repeat: no-repeat;       
     background-size: cover;             
     background-position: center;  
@@ -8,6 +8,8 @@ body{
 
 .navbar{
     background-color: rgb(5, 3, 151);
+    border-radius: 8px;
+  
 }
 
 .navbar ul {
@@ -33,4 +35,46 @@ body{
     width: 100px;
     height: auto;
     vertical-align: middle;
+}
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servicios{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.whatsapp-button{
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button img{
+    width: 24px;
+    height: 24px;
+    margin-right:8px;
+}
+
+.whatsapp-button:hover{
+    background-color: #1ebe5d;
 }
