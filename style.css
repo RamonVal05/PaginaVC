@@ -8,6 +8,8 @@ body{
 
 .navbar{
     background-color: rgb(5, 3, 151);
+    position: fixed;
+    top: 0;
 }
 
 .navbar ul {
